@@ -1,0 +1,144 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color:blueviolet;
+    padding: 4px 8px;
+}
+a{
+    color: azure;
+    text-decoration: none;
+    margin-right: 10px;
+}
+span{
+    position: absolute;
+    right: 0%;
+}
+ p{
+    text-wrap: nowrap ;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    width: 20ch;
+animation: typing  2s steps(20) infinite alternate-reverse;
+ }
+ @keyframes typing {
+    from {width: 0ch;
+        
+
+    }
+ } */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.containor {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    border-radius: 10px;
+
+}
+
+.h1 {
+    text-align: center;
+    font-size: larger;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.form {
+    width: 100%;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input {
+    border-radius: 13px;
+    border: 1px solid #c0c0c0;
+    padding: 12px 15px;
+}
+
+.login {
+    background-color: teal;
+    color: whitesmoke;
+    border: 1px solid transparent;
+    border-radius: 13px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.login:before{
+    content:"0";
+    height:100
+}
+
+.lab {
+    text-decoration: underline;
+    margin: 0;
+    text-align: end;
+    color: #747474;
+    text-decoration-color: #747474;
+}
+
+a {
+    text-decoration: underline;
+    color: teal;
+    cursor: pointer;
+}
+
+.acc {
+    padding-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    margin-top: 25px;
+    width: 100%;
+    font-size: 13px;
+
+}
+
+.apple {
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    column-gap: 6px;
+
+}
+
+.google {
+    background-color: teal;
+    border: 1px solid transparent;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    column-gap: 6px;
+}
