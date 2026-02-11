@@ -1,37 +1,3 @@
-/* *{
-    padding: 0;
-    margin: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-div{
-    height: 30px;
-    display: flex;
-    align-items: center;
-    background-color:blueviolet;
-    padding: 4px 8px;
-}
-a{
-    color: azure;
-    text-decoration: none;
-    margin-right: 10px;
-}
-span{
-    position: absolute;
-    right: 0%;
-}
- p{
-    text-wrap: nowrap ;
-    overflow: hidden;
-    font-family: 'Courier New', Courier, monospace;
-    width: 20ch;
-animation: typing  2s steps(20) infinite alternate-reverse;
- }
- @keyframes typing {
-    from {width: 0ch;
-        
-
-    }
- } */
 * {
     margin: 0;
     padding: 0;
@@ -40,10 +6,14 @@ animation: typing  2s steps(20) infinite alternate-reverse;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .containor {
-    position: absolute;
-    top: 20%;
-    left: 35%;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 350px;
@@ -56,12 +26,11 @@ animation: typing  2s steps(20) infinite alternate-reverse;
 .h1 {
     text-align: center;
     font-size: larger;
-    padding-top: 30px;
-    padding-bottom: 25px;
+    padding: 25px 0;
 }
 
 .form {
-    width: 100%;
+    /* width: 100%; */
     gap: 18px;
     display: flex;
     flex-direction: column;
@@ -81,12 +50,9 @@ animation: typing  2s steps(20) infinite alternate-reverse;
     border-radius: 13px;
     padding: 10px 15px;
     margin-bottom: 10px;
-    cursor:pointer;
+    cursor: pointer;
 }
-.login:before{
-    content:"0";
-    height:100
-}
+
 
 .lab {
     text-decoration: underline;
@@ -109,10 +75,10 @@ a {
 .buttons {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     color: white;
-    margin-top: 25px;
-    width: 100%;
+    /* margin-top: 25px; */
+    /* width: 100%; */
     font-size: 13px;
 
 }
@@ -121,13 +87,13 @@ a {
     background-color: black;
     border: 1px solid transparent;
     border-radius: 13px;
-    margin-bottom: 10px;
+    margin: 15px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 15px;
     cursor: pointer;
-    column-gap: 6px;
+    gap: 6px;
 
 }
 
@@ -140,5 +106,5 @@ a {
     align-items: center;
     padding: 10px 15px;
     cursor: pointer;
-    column-gap: 6px;
+    gap: 6px;
 }
